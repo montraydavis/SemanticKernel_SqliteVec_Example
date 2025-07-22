@@ -45,7 +45,7 @@
 - Vector Search Implementation
 - Combining Search Results
 
-### **Part III: Advanced Features**
+### **Part III: Advanced Features & Production**
 
 #### Chapter 7: Search Optimization and Performance
 - RRF Algorithm Deep Dive
@@ -65,104 +65,67 @@
 - Error Handling and Resilience
 - Monitoring and Logging
 
-### **Part IV: Real-World Applications**
-
-#### Chapter 10: Building a Hotel Search API
-- RESTful API Design
-- Request/Response Models
-- Validation and Security
-- Rate Limiting and Throttling
-
-#### Chapter 11: Performance Testing and Optimization
-- Benchmarking Search Operations
-- Memory Usage Analysis
-- Scaling Considerations
-- Performance Tuning Guidelines
-
-#### Chapter 12: Deployment and DevOps
-- Docker Configuration
-- CI/CD Pipeline Setup
-- Environment Configuration
-- Backup and Recovery Strategies
-
-### **Part V: Extensions and Integration**
-
-#### Chapter 13: Advanced Integration Patterns
-- Multi-Modal Search (Text + Images)
-- Real-Time Index Updates
-- Distributed Search Architectures
-- Semantic Caching Implementation
-
-#### Chapter 14: Custom Extensions and Plugins
-- Building Custom Distance Functions
-- Creating Search Result Processors
-- Implementing Custom Filters
-- Extending the Service Layer
-
-#### Chapter 15: Testing Strategies
-- Unit Testing Vector Operations
-- Integration Testing Patterns
-- Performance Testing Frameworks
-- Mock and Test Data Strategies
-
-### **Part VI: Best Practices and Patterns**
-
-#### Chapter 16: Design Patterns and SOLID Principles
-- Repository Pattern Implementation
-- Factory Pattern for Search Strategies
-- Observer Pattern for Search Events
-- Command Pattern for Batch Operations
-
-#### Chapter 17: Security and Compliance
-- API Key Management
-- Data Privacy Considerations
-- Audit Logging
-- GDPR and Compliance
-
-#### Chapter 18: Troubleshooting and Debugging
-- Common Issues and Solutions
-- Debugging Vector Search Problems
-- Performance Bottleneck Identification
-- Logging Best Practices
-
----
-
-### **Appendices**
-
-#### Appendix A: SQLiteVec Configuration Reference
-- Complete Configuration Options
-- Environment Variables
-- Connection String Formats
-- Performance Settings
-
-#### Appendix B: RRF Algorithm Mathematical Foundation
-- Mathematical Formulation
-- Parameter Tuning Guidelines
-- Alternative Fusion Methods
-- Evaluation Metrics
-
-#### Appendix C: Sample Code Repository
-- Complete Working Examples
-- Test Data Sets
-- Docker Compose Configurations
-- Deployment Scripts
-
-#### Appendix D: Migration Guide
-- Upgrading from Previous Versions
-- Data Migration Strategies
-- API Breaking Changes
-- Compatibility Matrix
-
 ---
 
 ### **Additional Resources**
 
-- Glossary of Terms
-- Further Reading
-- Community Resources
-- Contributing Guidelines
-- Index
+#### Interactive Learning Materials
+
+**🎧 Audio Tutorial**
+- Microsoft Semantic Kernel with SQLiteVec: A Hybrid Search Guide (MP3)
+- Complete walkthrough from concept to production
+
+**🔬 Jupyter Notebook**
+- SemanticKernel_SqliteVec.ipynb
+- Step-by-step implementation with live code
+- Performance analysis and benchmarking
+- Interactive examples and demonstrations
+
+#### Quick Reference
+
+**Key Technologies Covered:**
+- SQLiteVec for vector storage and retrieval
+- Microsoft Semantic Kernel for AI orchestration
+- Reciprocal Rank Fusion (RRF) algorithm
+- OpenAI embeddings integration
+- FTS5 full-text search
+- Hybrid search architectures
+
+**Implementation Patterns:**
+- VectorData attributes for schema definition
+- Dependency injection and clean architecture
+- Service layer patterns following SOLID principles
+- Production-ready error handling and resilience
+- Performance optimization techniques
+
+**Sample Applications:**
+- Hotel Search Engine demonstration
+- Complete working examples with sample data
+- Performance benchmarking code
+- Production deployment patterns
 
 ---
 
-*This book provides a comprehensive, practical guide to implementing hybrid search solutions using Microsoft Semantic Kernel with SQLiteVec, following modern C# development practices and SOLID principles.*
+### **Learning Path Recommendations**
+
+#### **Beginner Track** (New to vector search)
+1. Chapter 1: Core concepts and theory
+2. Chapter 2: Environment setup
+3. Chapter 3: Data modeling basics
+4. Jupyter Notebook: Sections 1-6
+
+#### **Intermediate Track** (Familiar with embeddings)
+1. Chapters 4-6: Implementation patterns
+2. Complete Jupyter Notebook
+3. Audio Tutorial: Advanced sections
+4. Experiment with RRF parameters
+
+#### **Advanced Track** (Production ready)
+1. Chapters 7-9: Optimization and production
+2. Custom implementations and extensions
+3. Performance tuning and monitoring
+4. Scale to production workloads
+
+---
+
+*This comprehensive guide provides everything needed to master hybrid search with SQLiteVec and Microsoft Semantic Kernel, from fundamental concepts to production deployment.*

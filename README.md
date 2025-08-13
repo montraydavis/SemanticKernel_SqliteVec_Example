@@ -79,7 +79,7 @@ Step-by-step implementation with running code, performance analysis, and interac
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-org/semantic-kernel-sqlitevec-tutorial.git](https://github.com/montraydavis/SemanticKernel_SqliteVec_Example.git)
+   git clone https://github.com/montraydavis/SemanticKernel_SqliteVec_Example.git
    cd SemanticKernel_SqliteVec_Example
    ```
 
